@@ -1,0 +1,14 @@
+package utilities;
+
+public class CurrencyConverter {
+
+		public static double price;
+		public static double bought;
+			
+	      public static	double converter (double price, double bought) {
+			return price * bought * (6/100);
+		}
+				
+
+	}
+

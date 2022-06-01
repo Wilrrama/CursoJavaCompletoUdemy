@@ -1,0 +1,14 @@
+package utilities;
+
+public class CurrencyConverter {
+
+		 public static final double IOF = 37.20;
+			
+	      public static	double converter (double price, double bought) {
+	    	  double c = (price * bought);
+	    	  return  c + IOF;
+		}
+				
+
+	}
+

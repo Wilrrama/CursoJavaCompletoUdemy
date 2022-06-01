@@ -1,0 +1,13 @@
+INDEX VERSION 1.131+I:\Cursos\Udemy\Java Completo\WS-Java Completo\.metadata\.plugins\org.eclipse.jdt.core
+3050045543.index
+3841644385.index
+3506975547.index
+195381165.index
+3331148131.index
+2978642421.index
+1756188615.index
+4161665537.index
+183738911.index
+2592304983.index
+679684175.index
+187778208.index
