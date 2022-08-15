@@ -11,7 +11,6 @@ public class Product {
 	}
 		
 	public Product(String name, Double price, Integer qtd) {
-		super();
 		this.name = name;
 		this.price = price;
 		this.qtd = qtd;
