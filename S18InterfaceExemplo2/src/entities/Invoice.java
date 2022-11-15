@@ -8,7 +8,7 @@ public class Invoice {
 	public Invoice() {
 	}
 
-	public Invoice(Double basicPayment, Double tax) {		
+	public Invoice(Double basicPayment, Double tax) {
 		this.basicPayment = basicPayment;
 		this.tax = tax;
 	}
@@ -31,6 +31,6 @@ public class Invoice {
 	
 	public Double getTotalPayment() {
 		return getBasicPayment() + getTax();
-	}	
-	
+	}
 }
+
