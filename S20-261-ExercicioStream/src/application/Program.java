@@ -1,7 +1,6 @@
 package application;
 
 import java.io.BufferedReader;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -27,6 +26,7 @@ public class Program {
 			
 			List<Product> list = new ArrayList<>();
 			
+					
 			String line = br.readLine();
 			while ( line != null) {
 				String[] fields = line.split(",");
