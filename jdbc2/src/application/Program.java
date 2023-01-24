@@ -16,10 +16,8 @@ public class Program {
 		ResultSet rs = null;
 		
 		try {
-		conn = DB.getConnection();
-		
-		st = conn.createStatement();
-		
+		conn = DB.getConnection();		
+		st = conn.createStatement();		
 		rs = st.executeQuery("select * from department");
 		
 		while (rs.next()) {
