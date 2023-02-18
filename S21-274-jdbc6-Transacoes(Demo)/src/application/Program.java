@@ -27,8 +27,7 @@ public class Program {
 		//	if (x<2) {
 		//		throw new SQLException("Fake error");
 		//	}
-			
-			
+						
 			int rows2 = st.executeUpdate(
 					"UPDATE seller set BaseSalary = 3090 WHERE DepartmentID = 2");
 			
